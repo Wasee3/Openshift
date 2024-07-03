@@ -9,4 +9,4 @@ Post Cluster Installation tasks (Day2 tasks)
 - [Whitelist Registries](./Day2/whitelist_registry.md)
 
 Automation Ideas
-- [Monitoring Openshift Cluster upgrades](./Automation/Monitoring_upgrades.md)
+- [Monitoring Openshift Cluster upgrades with Tekton Pipeline](./Automation/Monitoring_upgrades.md)
