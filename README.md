@@ -1,6 +1,7 @@
 # Openshift
 Openshift documents
 
-Document list
+Document Index
 
-[Infrastructure node creation](./Infrastructure\ node\ creation.md)
+Post Cluster Installation tasks (Day2 tasks)
+- [Infrastructure node creation](./Day2/Infrastructurenodecreation.md)
