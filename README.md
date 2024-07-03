@@ -1,2 +1,6 @@
 # Openshift
-Openshift documents 
+Openshift documents
+
+Document list
+
+[Infrastructure node creation](./Infrastructure\ node\ creation.md)
