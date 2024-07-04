@@ -78,7 +78,6 @@ spec:
   logStore:
     type: elasticsearch                         #Settings for configuring Elasticsearch. Using the CR, you can configure shard replication policy and persistent storage.
     retentionPolicy:                            #Specify the length of time that Elasticsearch should retain each log source. Enter an integer and a time designation: weeks(w), hours(h/H), minutes(m) and seconds(s). For example, 7d for seven days. Logs older than the maxAge are deleted. You must specify a retention policy for each log source or the Elasticsearch indices will not be created for that source.
-
       application:
         maxAge: 1d
       infra:
