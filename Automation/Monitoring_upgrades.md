@@ -1,5 +1,7 @@
 # Monitoring Openshift Cluster Upgrades through Tekton Pipeline   
 
+***(Note:- This Solution is meant for cross Cluster monitoring where multiple clusters are available. In case you want monitor the solution from cluster the cluster itself use Cronjob solution. Do not run the Pipeline on the cluster with an scheduled update, as it might stop the pipeline pod during the rebooting process )***
+
 ### Openshift Cluster Upgrade Process
 OpenShift upgrades the entire cluster by draining all nodes and rebooting using the latest rendered image. Even though all cluster operators may be in a Ready state, the upgrade is not considered complete until all nodes in the cluster are rebooted with the latest rendered image. Moreover, for major version upgrades, the cluster has to go through intermediate upgrade versions before reaching the desired version. Monitoring cluster upgrades can be tedious and time-consuming for production-grade clusters. This automation can help monitor the cluster upgrades. Additionally, this Tekton Pipeline can be customized to trigger the next version upgrade once the previous upgrade is complete. However, that can be an upgrade to this current pipeline.
 
