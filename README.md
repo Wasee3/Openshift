@@ -11,4 +11,5 @@ Post Cluster Installation tasks (Day2 tasks)
 - [Logging Operator Installation](./Day2/Logging_operator-installation.md)
 
 Automation Ideas
-- [Monitoring Openshift Cluster upgrades with Tekton Pipeline](./Automation/Monitoring_upgrades.md)
+- [Monitoring Openshift Cluster upgrades with Tekton Pipeline when multiple Clusters are present](./Automation/Monitoring_upgrades.md)
+- [Monitoring upgrades on Openshift Cluster Using Cron Jobs](./Automation/Monitoring_Openshift_upgrades_using_CronJobs.md)
