@@ -65,7 +65,7 @@ fi
 `oc create configmap monitor-mcp-script  --from-file=path/to/monitor_mcp.sh`
 
 3. Create service account with appropriate permission.
-```oc create serviceaccount <your-service-account>
+```oc create serviceaccount <your-service-account>;
 oc adm policy add-cluster-role-to-user <role> -z <service-account>
 ```
 ***(Note:- Can use Cluster Reader role, However it doesn't comply with least privilege rule. Try to customise a role with required permission.)***
