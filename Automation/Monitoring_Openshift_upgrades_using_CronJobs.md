@@ -3,7 +3,7 @@
 # Pre-Requisites 
 1. Cronjob service account should have permission to monitor Machine Config Pools.
 2. A separate namespace.
-3. An Open Network connection in case the SMTP server reside in a different Subnet.
+3. An Open Network connection in case the SMTP server resides in a different Subnet.
 
 ## Procedure
 1. Create a shell script to check mcp status *monitor_mcp.sh*.
