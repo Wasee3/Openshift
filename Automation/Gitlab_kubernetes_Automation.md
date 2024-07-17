@@ -107,6 +107,7 @@ ci_access:
     - id: my-group/my-project
 ```
 Above YAML snippet grants CI access to project named **my-project** in group **my-group** 
+
 3. **Apply GitLab Agent config in Kubernetes:**
 
 - Follow the provided instructions to install the GitLab Agent. This usually involves running a kubectl command like:
