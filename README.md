@@ -14,3 +14,4 @@ Automation Ideas
 - [Monitoring Openshift Cluster upgrades with Tekton Pipeline when multiple Clusters are present](./Automation/Monitoring_upgrades.md)
 - [Monitoring upgrades on Openshift Cluster Using Cron Jobs](./Automation/Monitoring_Openshift_upgrades_using_CronJobs.md)
 - [Gitlab_Kubernetes_Automation](./Automation/Gitlab_kubernetes_Automation.md)
+- [Kustomize Debunked with an Example](./Theory/Kustomize-example.md)
